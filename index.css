@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body{
+    background-color: #ffffff;
+}
+
+main{
+    display: flex;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    padding: 10px 8% 70px;
+}
+
+.right-side{
+    width: 100%;
+    background-image: url(/Projeto-RiotGames/kayn.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+.logo{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.txt-dados{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+input{
+    appearance: none;
+    width: 360px;
+    height: 57px;
+    background-color: #ECECEC;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.checkbox-input:checked {
+    background-color: red;
+}
+  
+.checkbox-input:checked::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 8px;
+    border: 3px solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: 1px 5px;
+}
+
+::placeholder{
+    padding-left: 20px;
+}
+
+.sociais{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+div.sociais{
+    width: 360px;
+}
+
+#fb{
+    background-color:  #1B77F3;
+}
+
+#apple{
+    background-color: black;
+}
+
+#google{
+    background-color: white;
+    border: solid #ECECEC;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    background-color: #ECECEC;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.checkbox{
+    margin-top: 20px;
+    display: flex;
+}
+
+.btn-login {
+    margin-top: 180px;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    background-color: white;
+    border: 2px solid #ECECEC;
+}
+
+.end{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: #A7A7A7;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+a:hover{
+    color: black;
+}
+
+.me{
+    color: #000000; 
+    text-decoration: none;
+}
+
+.me:hover{
+    color: rgb(255, 0, 0);
+}
+
+.div-me{
+    position: fixed;
+    bottom: 0;
+}
